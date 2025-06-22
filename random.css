@@ -1,0 +1,77 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.otp {
+    background-color:white;
+    text-align: center;
+    padding: 30px 40px;
+    text-align: center;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.1);;
+}
+
+.otp a {
+    display: block;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.otp button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.otp button:hover {
+    background-color: #0056b3;
+}
+
+.otp input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+.otp-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.otp-row input {
+    margin-top: 0;
+    width: 200px;
+    max-width: 100%;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

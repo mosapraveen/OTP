@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OTP Form</title>
+  <link rel="stylesheet" href="random.css" />
+</head>
+<body>
+  <div class="otp">
+    <a>Click on button to generate OTP</a>
+    <div class="otp-row">
+      <button onclick="generateOTP()">OTP</button>
+      <input type="text" id="otp-input" placeholder="Enter OTP here"/>
+    </div>
+    <button type="submit" class="submit" onclick="verifyOTP()">Submit</button>
+    <div id="message"></div>
+  </div>
+  <script src="otp.js"></script>
+</body>
+</html>
